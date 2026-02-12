@@ -34,11 +34,16 @@ The model doesn't just look at numbers; it looks at the intersection of three cr
 **Tiered Risk Logic**
 
 The system outputs three distinct states based on the AI's confidence:
+
 Risk Level AI Confidence UI Action
+
 System Secure High (Deep Inlier) Green Light: Auto-Approved
+
 Suspicious Moderate (Outskirts) Amber Light: Trigger Review / MFA
+
 Critical Threat Low (True Outlier) Red Light: Immediate Flag
-💻 Tech Stack
+
+**Tech Stack**
 
     Engine: Python 3.12 (FastAPI)
 
